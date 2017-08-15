@@ -1,7 +1,20 @@
 # ViewPagerCards
 ViewPager cards inspired by Duolingo
 
-From my blog post: https://rubensousa.github.io/2016/08/viewpagercards
+## Using with gradle
+- Add the JitPack repository to your root build.gradle:
+```gradle
+repositories {
+    maven { url "https://jitpack.io" }
+}
+```
+
+- Add the dependency to your sub build.gradle:
+```gradle
+dependencies {
+   compile 'com.github.mirshahbazi:ViewPagerCards:-SNAPSHOT'
+}
+```
 
 This is just a sample project.
 
